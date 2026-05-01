@@ -1,0 +1,622 @@
+{
+  "common": {
+    "language": "English",
+    "yes": "Yes",
+    "no": "No",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "submit": "Submit",
+    "close": "Close",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "warning": "Warning",
+    "info": "Information"
+  },
+  "rules": {
+    "header": {
+      "title": "Oriental Divination Systems",
+      "subtitle": "",
+      "description": "A mysterious discipline that unlocks the mysteries of the universe, rooted in the ancient Chinese I Ching (Book of Changes)."
+    },
+    "overview": {
+      "title": "Yidao Tang - A Hall of Yi Learning and Dao Cultivation",
+      "description": "Centered on the **I Ching** and Taoist philosophy, our website inherits and promotes traditional Chinese culture including Yi Learning, Feng Shui, numerology, Tai Chi and more. We uphold the essence of ancient classics, carry forward orthodox Yi Dao heritage, popularize professional knowledge of Yin-Yang and Five Elements, interpret the laws of nature and life, and dedicate ourselves to building a professional, authentic platform for the exchange and study of traditional Chinese culture and Yi studies."
+    },
+    "actions": {
+      "viewFullGuide": "View Full Guide",
+      "paiPan": "Pai Pan",
+      "yijing64": "Yijing 64"
+    },
+    "sections": {
+      "systems": "Available Divination Systems",
+      "comparison": "🌏 Oriental Divination System Comparison"
+    },
+    "table": {
+      "system": "System",
+      "coreTool": "Core Features",
+      "useCase": "Application Scenarios"
+    },
+    "systemsList": {
+      "zhouyi": "I Ching - foundation of all Chinese divination ✔️",
+      "qimen": "Ancient strategic system ✔️",
+      "ziwei": "Purple star astrology ✔️",
+      "liuren": "Six stem system ✔️",
+      "liuyao": "Six line divination ✔️",
+      "bazi": "Four pillars of destiny ✔️"
+    },
+    "zhouyi": {
+      "name": "Zhouyi Divination (I Ching Divination)",
+      "description": "Eight Trigrams, 64 Zhouyi, Line Changes",
+      "coreTool": "Eight Trigrams, 64 Zhouyi, Line Changes",
+      "coreFeatures": "Key features: Heaven-human unity, causality & holistic thinking; foundation for all other divination systems.",
+      "positioning": "Positioning: General decisions, fortune/misfortune judgment",
+      "advantages": {
+        "title": "Advantages",
+        "items": [
+          "Deep philosophy & framework: Provides causal and holistic perspective for complex decisions.",
+          "Strong universality: Applicable to personal, organizational, and strategic levels.",
+          "Historical inheritance: Theoretical foundation for multiple divination systems."
+        ]
+      },
+      "disadvantages": {
+        "title": "Disadvantages",
+        "items": [
+          "Abstract symbols: Interpretation is subjective, requiring experience and context.",
+          "Limited time precision: Less accurate for specific timepoints or short-term events.",
+          "Complex line changes: High threshold for multiple-line interpretation."
+        ]
+      }
+    },
+    "liuyao": {
+      "name": "Liu Yao (Six-Line Divination)",
+      "description": "Three copper coins, line changes",
+      "coreTool": "Three copper coins, line changes",
+      "coreFeatures": "Key features: Coins replace yarrow stalks; flexible & efficient; popular in folk tradition.",
+      "positioning": "Positioning: One event one divination, short-term precision, dynamic timeline prediction.",
+      "advantages": {
+        "title": "Advantages",
+        "items": [
+          "Highly targeted: Directly answers success/failure, fortune, and timepoints.",
+          "Rigorous system: Six relatives, six gods, month/day logic is clear.",
+          "Flexible casting: Coins / time / numbers method, usable anytime."
+        ]
+      },
+      "disadvantages": {
+        "title": "Disadvantages",
+        "items": [
+          "Limited to single events, difficult for lifetime overview.",
+          "Multiple line interpretations are complex, dependent on querent's focus."
+        ]
+      }
+    },
+    "meihua": {
+      "name": "Plum Blossom Divination",
+      "description": "Time, numbers, directions, signs",
+      "coreTool": "Time, numbers, directions, signs",
+      "coreFeatures": "Key features: Heart-mind oriented, opportunity-triggered, easy to master.",
+      "positioning": "Positioning: Random casting, simple and fast temporary emergency divination method.",
+      "advantages": {
+        "title": "Advantages",
+        "items": [
+          "Extremely simple and flexible: Everything can be divined, instant hexagram casting.",
+          "Quick to learn: Basic symbolism enables quick fortune assessment.",
+          "Strong intuition: Suitable for quick judgment of sudden or random events."
+        ]
+      },
+      "disadvantages": {
+        "title": "Disadvantages",
+        "items": [
+          "Loose system framework with insufficient depth and detail.",
+          "Relies on intuition; stability and accuracy inferior to Liu Yao and Da Liu Ren."
+        ]
+      }
+    },
+    "bazi": {
+      "name": "Ba Zi (Four Pillars of Destiny)",
+      "description": "Birth year/month/day/hour stems & branches",
+      "coreTool": "Birth year/month/day/hour stems & branches",
+      "coreFeatures": "Key features: Life-climate model; emphasizes five-element harmony; destiny blueprint from birth time.",
+      "positioning": "Positioning: Lifetime overview, personality traits, major cycles & annual fortune trends.",
+      "advantages": {
+        "title": "Advantages",
+        "items": [
+          "Holistic perspective: Reveals lifetime pattern, marriage, health, and major cycle trends.",
+          "High stability: Fixed birth time creates unique natal chart with long-term reference value.",
+          "Character analysis: Ten gods system enables deep personality & talent understanding."
+        ]
+      },
+      "disadvantages": {
+        "title": "Disadvantages",
+        "items": [
+          "Limited granularity: Biased toward major directions, difficult for small event details & precise timepoints.",
+          "Birth time dependency: Accuracy highly sensitive to birth time (errors >1 hour significantly impact readings)."
+        ]
+      }
+    },
+    "zeri": {
+      "name": "Auspicious Date Selection (Zeri)",
+      "description": "Auspicious Date and Hour Selection",
+      "coreTool": "Lunar/solar calendar, solar terms, sound/element verification, auspicious gods and inauspicious deities table",
+      "coreFeatures": "Key features: Based on lunar/solar calendar, solar terms and querent's Ba Zi; prioritize auspicious gods, avoid clashing penalties; meticulous selection for specific dates and hours.",
+      "positioning": "Positioning: Select auspicious dates and hours for marriages, moving, business opening, excavation, and burial.",
+      "advantages": {
+        "title": "Advantages",
+        "items": [
+          "Highly targeted: Directly selects the most suitable date and hour for specific activities.",
+          "Actionable strategy: Combined with Ba Zi and Feng Shui enables comprehensive preparation plan.",
+          "Risk mitigation: Avoid clashing penalties and inauspicious dates to minimize adverse effects."
+        ]
+      },
+      "disadvantages": {
+        "title": "Disadvantages",
+        "items": [
+          "Limited by available dates: Popular dates may be concentrated or unsuitable for all parties.",
+          "Requires extensive information (birth Ba Zi/location/purpose) with interpretation variations across schools."
+        ]
+      }
+    },
+    "ziwei": {
+      "name": "Zi Wei Dou Shu (Purple Star Astrology)",
+      "description": "108 stars, 12 palaces",
+      "coreTool": "108 stars, 12 palaces",
+      "coreFeatures": "Key features: Rich star combinations; precise life-stage insights.",
+      "positioning": "Positioning: Star astrology, refined life and psychological insight for Oriental astrology.",
+      "advantages": {
+        "title": "Advantages",
+        "items": [
+          "Refined stars: Rich details on personality, six relatives, health, and wealth.",
+          "Strong visualization: 12-palace chart intuitive and easy to interpret.",
+          "Psychological insight: Excellent at analyzing subconscious and emotional structures."
+        ]
+      },
+      "disadvantages": {
+        "title": "Disadvantages",
+        "items": [
+          "Complex charting; multiple schools cause interpretation variations.",
+          "Weaker fate modification/layout compared to Qi Men; timing precision inferior to Liu Yao/Da Liu Ren."
+        ]
+      }
+    },
+    "qimen": {
+      "name": "Qi Men Dun Jia (Mysterious Gate Escaping Armor)",
+      "description": "Nine stars, eight gates, three oddities, six ceremonials",
+      "coreTool": "Nine stars, eight gates, three oddities, six ceremonials",
+      "coreFeatures": "Key features: Time+space integrated system; strong operational/strategic capability.",
+      "positioning": "Positioning: Time-space strategy, directional layout and strategic decision-making superior tool.",
+      "advantages": {
+        "title": "Advantages",
+        "items": [
+          "Can select auspicious time, choose auspicious direction, layout for fate reversal, resolve disasters.",
+          "Suitable for multi-person/multi-event global coordination and complex game analysis."
+        ]
+      },
+      "disadvantages": {
+        "title": "Disadvantages",
+        "items": [
+          "Complex system, high learning threshold, requires precise time for charting.",
+          "Difficult for beginners; abstract symbols unsuitable for trivial matters."
+        ]
+      }
+    },
+    "liuren": {
+      "name": "Da Liu Ren",
+      "description": "Twelve heavenly generals, lunar month + time, heaven & earth boards",
+      "coreTool": "Twelve heavenly generals, lunar month + time, heaven & earth boards",
+      "coreFeatures": "Key features: Four-course/three-transmission, class-deity system; highly intricate and human-focused.",
+      "positioning": "Positioning: King of human affairs; suitable for deep inference of complex interpersonal and event matters.",
+      "advantages": {
+        "title": "Advantages",
+        "items": [
+          "Ultimate refinement: See event cause-effect, human psychology and hidden factors clearly.",
+          "Strong human affair divination: Relationships, disputes, cooperation details extremely insightful."
+        ]
+      },
+      "disadvantages": {
+        "title": "Disadvantages",
+        "items": [
+          "Extremely difficult to learn; strict charting with complex symbols prone to errors.",
+          "Less flexible; primarily focuses on human affairs rather than Feng Shui layout."
+        ]
+      }
+    },
+    "taiyi": {
+      "name": "Tai Yi Divine Numbers",
+      "description": "Nine palaces, Tai Yi chronology",
+      "coreTool": "Nine palaces, Tai Yi chronology",
+      "coreFeatures": "Key features: One of three schools, focuses on macroscopic events; used for national fortune and major trends.",
+      "positioning": "Positioning: National fortune and major trend macroscopic prediction.",
+      "advantages": {
+        "title": "Advantages",
+        "items": [
+          "Excellent at macroscopic forecasting: High accuracy in judging national, era and major event trends.",
+          "Strong cyclical and macro-trend analysis: Suitable for long-term strategy formulation and policy reference.",
+          "Combined history and celestial: Integrate calendar and celestial phenomena for overall trend."
+        ]
+      },
+      "disadvantages": {
+        "title": "Disadvantages",
+        "items": [
+          "Difficult to apply to personal affairs: Focuses on macro, unsuitable for refined personal event divination.",
+          "Rare system and high threshold: Limited schools and resources; very few practitioners.",
+          "Conceptual explanation: Requires combining other methods for concrete decision-making."
+        ]
+      }
+    },
+    "fengshui": {
+      "name": "Feng Shui",
+      "description": "Landforms, qi theory, directions, environment",
+      "coreTool": "Landforms, qi theory, directions, environment",
+      "coreFeatures": "Key features: Adjust spatial energy to improve health/wealth/family; long-term environmental influence.",
+      "positioning": "Positioning: Environmental energy and spatial layout fate reversal tool applicable to Yang and Yin dwellings.",
+      "advantages": {
+        "title": "Advantages",
+        "items": [
+          "Strong fate reversal capability: Environmental adjustment produces sustained and significant effects.",
+          "High controllability: Layout, placement and direction actively adjustable for fortune improvement."
+        ]
+      },
+      "disadvantages": {
+        "title": "Disadvantages",
+        "items": [
+          "High cost and timeline: Renovation, relocation costs and time commitment substantial.",
+          "Limited by structure, slow effect; many schools create variance."
+        ]
+      }
+    },
+    "xiang": {
+      "name": "Physiognomy (Xiang Xue)",
+      "description": "Face reading, palm reading",
+      "coreTool": "Face reading, palm reading, demeanor observation",
+      "coreFeatures": "Key features: Infer destiny and character through observing physical features; systematic theory, cost-free, instantly applicable.",
+      "positioning": "Positioning: Quick judgment tool for character insight and destiny trends; suitable for initial encounters and talent selection.",
+      "advantages": {
+        "title": "Advantages",
+        "items": [
+          "Zero cost and threshold: No payment required, observable anytime, low learning cost.",
+          "Instant judgment: Quickly assess temperament, character and fortune tendency upon first meeting.",
+          "Widely applicable: Useful for talent selection, romance, HR recruitment, character analysis and daily scenarios."
+        ]
+      },
+      "disadvantages": {
+        "title": "Disadvantages",
+        "items": [
+          "Limited precision: Observation results are trend judgments, unable to predict specific events accurately.",
+          "Strong subjectivity: Diverse theories and many schools create variance; influenced by observer experience.",
+          "Cannot reverse directional judgments: Results tend toward determinism; limited space for fate reversal."
+        ]
+      }
+    },
+    "sliuren": {
+      "name": "Sliuren (Small Liuren)",
+      "description": "Three courses (month/day/time), quick inference method",
+      "coreTool": "Three courses (month/day/time), quick inference method",
+      "coreFeatures": "Key features: Simplified Liuren system, faster divination, folk tradition.",
+      "positioning": "Positioning: Quick divination, convenient inference tool commonly used in folk.",
+      "advantages": {
+        "title": "Advantages",
+        "items": [
+          "Fast speed: Faster charting than Da Liu Ren, suitable for emergency temporary use.",
+          "Easy to learn and apply: Basic rules relatively simple, widely circulated in folk traditions.",
+          "Strong targeting: Despite simplification, still maintains good accuracy for short-term events."
+        ]
+      },
+      "disadvantages": {
+        "title": "Disadvantages",
+        "items": [
+          "Insufficient depth: Detail inference not as precise as Da Liu Ren.",
+          "Limited application: Primarily for short-term events, difficult to encompass complex interpersonal matters.",
+          "School variations: Different regions and sects have inconsistent interpretation standards."
+        ]
+      }
+    },
+    "tieban": {
+      "name": "Tieban Divine Numbers",
+      "description": "Mathematical algorithms, nine stars, eight trigrams",
+      "coreTool": "Mathematical algorithms, nine stars, eight trigrams",
+      "coreFeatures": "Key features: Precise mathematical divination, known for universal accuracy principle.",
+      "positioning": "Positioning: Precise prediction and high-accuracy system of mathematical inference.",
+      "advantages": {
+        "title": "Advantages",
+        "items": [
+          "Extremely accurate application: Based on mathematical formulas, claims 'universal accuracy', very high precision.",
+          "Clear standards: Based on mathematical algorithms, eliminate subjective judgment, strong result certainty.",
+          "Broad application: Applicable to multiple aspects like fate, timing, fortune prediction."
+        ]
+      },
+      "disadvantages": {
+        "title": "Disadvantages",
+        "items": [
+          "Black box characteristic: Most formulas and algorithms are secret transmissions, difficult to understand thoroughly.",
+          "Learning difficulty: Complex system, scarce resources, very few inheritors.",
+          "Limited practicality: Though accurate, provides conclusions rather than analysis process, difficult to flexibly apply."
+        ]
+      }
+    },
+    "drawing": {
+      "name": "Drawing Lots",
+      "description": "Lot container, lot text",
+      "coreTool": "Lot container, lot text",
+      "coreFeatures": "Key features: Ceremonial, popular, readable; often used in temples.",
+      "positioning": "Positioning: Prayer, group/temple ritual and short-term spiritual guidance.",
+      "advantages": {
+        "title": "Advantages",
+        "items": [
+          "Easily accessible: Low threshold, public habituated participation, broad circulation.",
+          "Strongly ceremonial: Provides psychological comfort and ritual support, enhances confidence.",
+          "Quick response: Simple procedure, suitable for prayer and short-term guidance."
+        ]
+      },
+      "disadvantages": {
+        "title": "Disadvantages",
+        "items": [
+          "Interpretation dependent: Lot text usually poems or symbols requiring diviner explanation, strong subjectivity.",
+          "Surface guidance: Usually provides vague or encouraging suggestions, lacks in-depth analysis.",
+          "Influenced by ritual and environment: Results and meaning may vary across different cultures/temples."
+        ]
+      }
+    },
+    "qimen_intro": {
+      "title": "Qi Men Dun Jia (Mysterious Gate Escaping Armor) Divination Rules",
+      "intro": "The Qi Men Dun Jia (Extraordinary Door Escape Technique) is an ancient Chinese system of divination and strategic planning that combines time and space for tactical decision-making.",
+      "keyElements": "Key Elements:",
+      "elements": [
+        "Based on 8 directions and 9 palaces (eight gates and nine sectors)",
+        "Uses 10 heavenly stems and 12 earthly branches (ten stems and twelve branches)",
+        "Calculates auspicious timing and favorable directions",
+        "Applied in strategic decision-making and tactical planning"
+      ],
+      "introduction": "Qi Men Dun Jia Introduction",
+      "paiPan": "Qi Men Dun Jia Chart Casting"
+    },
+    "ziwei_intro": {
+      "title": "Zi Wei Dou Shu (Purple Star Astrology)  Divination Rules",
+      "intro": "The Zi Wei Dou Shu (Purple Star Astrology) is a sophisticated system based on astrology and numerology that analyzes personality traits, relationships, and life destiny through 12 palaces and 108 stars.",
+      "keyElements": "Key Elements:",
+      "elements": [
+        "Based on 14 major stars and 108 total stars",
+        "Uses 12 palaces system for life areas",
+        "Analyzes personality traits and destiny patterns",
+        "Predicts fortunes and life transitions"
+      ],
+      "introduction": "Zi Wei Dou Shu Introduction",
+      "paiPan": "Zi Wei Dou Shu Chart Casting"
+    },
+    "liuren_intro": {
+      "title": "Da Liu Ren (Great Six Stem Divination)  Divination Rules",
+      "intro": "The Da Liu Ren (Great Six Stem Divination) system uses a unique framework that is known as the 'King of Human Affairs' for its precision in analyzing complex interpersonal situations and events.",
+      "keyElements": "Key Elements:",
+      "elements": [
+        "Based on 12 heavenly generals and their interactions",
+        "Uses lunar month and time for calculations",
+        "Focused on timing cycles and class deity system",
+        "Popular for practical divination of human affairs"
+      ],
+      "introduction": "Da Liu Ren Introduction",
+      "paiPan": "Da Liu Ren Chart Casting"
+    },
+    "liuyao_intro": {
+      "title": "Liu Yao (Six Line Divination)  Divination Rules",
+      "intro": "The Liu Yao (Six Line Divination) is based on the I Ching (Book of Changes) and uses six lines of divination, making it the most accessible form of I Ching divination for modern practitioners.",
+      "keyElements": "Key Elements:",
+      "elements": [
+        "Based on 6 lines system of yin and yang",
+        "Uses copper coins for casting the hexagrams",
+        "Primary and secondary hexagrams interpretation",
+        "Most accessible and popular I Ching divination method"
+      ],
+      "introduction": "Liu Yao Introduction",
+      "paiPan": "Liu Yao Chart Casting"
+    },
+    "bazi_intro": {
+      "title": "Ba Zi (Four Pillars of Destiny)  Divination Rules",
+      "intro": "The Ba Zi (Eight Characters or Four Pillars of Destiny) is based on birth date and time, providing a complete blueprint of a person's life destiny, personality, and major life cycles.",
+      "keyElements": "Key Elements:",
+      "elements": [
+        "Based on 8 characters (year, month, day, hour)",
+        "Uses heavenly stems and earthly branches (10 stems and 12 branches)",
+        "Analyzes personality traits and life path",
+        "Determines compatibility and fortune trends"
+      ],
+      "introduction": "Ba Zi Introduction",
+      "paiPan": "Ba Zi Chart Casting"
+    },
+    "name_intro": {
+      "title": "Name Study (Naming Science)  Divination Rules",
+      "intro": "Name Study is a traditional Chinese science of analyzing the significance and energy of personal names, combining stroke count, five elements theory, and numerology for optimal destiny influence.",
+      "keyElements": "Key Elements:",
+      "elements": [
+        "Stroke count analysis and numerology",
+        "Five elements correspondence to name characters",
+        "Name character energy interpretation",
+        "Five grid system analysis (strokes in name)",
+        "Auspicious character selection for names",
+        "Destiny and fortune assessment through naming"
+      ],
+      "introduction": "Name Study Introduction"
+    },
+    "meihua_intro": {
+      "title": "Plum Blossom Divination Heart-Mind Method",
+      "intro": "The Plum Blossom Divination (Mei Hua Yi Shu) is an intuitive method of divination emphasizing the heart-mind as primary, allowing spontaneous and instant divination based on time, numbers, or directions.",
+      "keyElements": "Key Elements:",
+      "elements": [
+        "Time-based divination (year, month, day, hour)",
+        "Eight trigrams symbolic interpretation",
+        "Number and direction method for casting",
+        "Heart-mind primary principle for reading",
+        "Instant opportunity divination capability",
+        "Easy to master and apply in daily situations"
+      ],
+      "introduction": "Plum Blossom Divination Introduction"
+    },
+    "fengshui_intro": {
+      "title": "Feng Shui Geomancy and Environmental Harmony",
+      "intro": "Feng Shui (Fung Shui) is the ancient Chinese art of environmental design and geomancy for harmonizing human living spaces with natural energy flows and celestial influences.",
+      "keyElements": "Key Elements:",
+      "elements": [
+        "Landform and topography analysis",
+        "Qi (life force) flow and circulation principles",
+        "Five elements theory application and balance",
+        "Yin-yang balance optimization in spaces",
+        "Directional analysis and auspicious positioning",
+        "Space layout and furniture design for harmony"
+      ],
+      "introduction": "Feng Shui Knowledge and Practice"
+    },
+    "xiang_intro": {
+      "title": "Physiognomy (Face and Hand Reading) Divination Rules",
+      "intro": "Physiognomy (Xiang Xue) is a traditional Chinese discipline that predicts life destiny, personality traits, and future development by observing external human features.",
+      "keyElements": "Key Elements:",
+      "elements": [
+        "Face reading overview (three sections, five eyes, face shapes)",
+        "Detailed facial features analysis (eyebrows, eyes, nose, mouth, ears significance)",
+        "Facial region analysis (forehead, under-eyes, cheekbones, chin)",
+        "Hand reading fundamentals (five palm regions, hand shapes, palm color)",
+        "Palm lines interpretation (life line, heart line, head line, fate line)",
+        "Comprehensive analysis methods (temperament observation, detailed analysis, destiny prediction)"
+      ],
+      "introduction": "Physiognomy Knowledge and Practice"
+    },
+    "taiyi_intro": {
+      "title": "Tai Yi Divine Numbers Macroscopic Divination",
+      "intro": "Tai Yi Divine Numbers (Tai Yi Shen Shu) is one of the three major divination systems in Chinese metaphysics, focusing on macroscopic events, national fortune, and major trend predictions.",
+      "keyElements": "Key Elements:",
+      "elements": [
+        "Nine palaces system for prediction",
+        "Tai Yi chronology and astronomical calculations",
+        "Five elements progression and balance theory",
+        "Macroscopic trend analysis methodology",
+        "National fortune and era forecasting",
+        "One of the three schools of divination (San Shi)"
+      ],
+      "introduction": "Tai Yi Divine Numbers Introduction",
+      "paiPan": "Tai Yi Divine Numbers Chart Casting"
+    },
+    "sliuren_intro": {
+      "title": "Small Liu Ren Quick Divination Method",
+      "intro": "Small Liu Ren (Xiao Liu Ren) is a simplified and faster divination method derived from the Da Liu Ren system, emphasizing speed and accessibility for immediate practical use.",
+      "keyElements": "Key Elements:",
+      "elements": [
+        "Three courses system (month, day, hour)",
+        "Six symbols methodology and analysis",
+        "Quick inference techniques and formulas",
+        "Folk tradition and widespread usage in communities",
+        "Short-term event prediction capability",
+        "Simplified Liu Ren approach for practical use"
+      ],
+      "introduction": "Small Liu Ren Introduction",
+      "paiPan": "Small Liu Ren Chart Casting"
+    },
+    "tieban_intro": {
+      "title": "Tieban Divine Numbers Mathematical Divination",
+      "intro": "Tieban Divine Numbers (Tie Ban Shen Shu) is a precise mathematical divination system known for its universal accuracy principle in predictions, combining mathematical formulas with traditional divination methods.",
+      "keyElements": "Key Elements:",
+      "elements": [
+        "Mathematical algorithms and secret formulas",
+        "Nine star positioning and interaction system",
+        "Eight trigram combinations and sequences",
+        "Precise mathematical calculations and proofs",
+        "Universal accuracy principle in predictions",
+        "Deterministic and systematic prediction methodology"
+      ],
+      "introduction": "Tieban Divine Numbers Introduction",
+      "paiPan": "Tieban Divine Numbers Chart Casting"
+    },
+    "drawing_intro": {
+      "title": "Drawing Lots Temple Divination",
+      "intro": "Drawing Lots (Chou Qian) is a traditional ritual divination method combining prayer, ceremony, and spiritual wisdom, commonly practiced in temples and spiritual spaces throughout the Chinese world.",
+      "keyElements": "Key Elements:",
+      "elements": [
+        "Sacred ritual and ceremonial process",
+        "Sign container with numbered bamboo sticks",
+        "Poetic or proverb-based interpretive text",
+        "Temple authority and spiritual legitimacy",
+        "Psychological comfort and spiritual guidance",
+        "Cultural heritage and folkloric significance"
+      ],
+      "introduction": "Drawing Lots and Prayer Blessing"
+    },
+    "zhouyi_intro": {
+      "title": "Zhouyi / I Ching Book of Changes",
+      "intro": "The Zhouyi (Book of Changes) or I Ching is the foundational philosophical and divination system underlying all Chinese metaphysics, wisdom traditions, and divination methods.",
+      "keyElements": "Key Elements:",
+      "elements": [
+        "Based on 8 trigrams and 64 hexagrams (gua)",
+        "Yin and yang duality principles and dynamics",
+        "Line changes and transformations interpretation",
+        "Heaven-human unity cosmic philosophy",
+        "Foundation for all other divination systems",
+        "Applicable to general decisions and life guidance"
+      ],
+      "introduction": "Zhouyi / I Ching Fundamental Knowledge",
+      "yijing64": "64 Hexagrams of the I Ching"
+    },
+    "ruleItems": {
+      "zhouyi": {
+        "name": "Zhouyi - I Ching",
+        "description": "- Basic knowledge of yin-yang, heavenly stems, earthly branches, five elements, and eight trigrams"
+      },
+      "qimen": {
+        "name": "Qi Men Dun Jia",
+        "description": "- Qi Men Dun Jia charting rules and interpretation methods"
+      },
+      "ziwei": {
+        "name": "Zi Wei Dou Shu",
+        "description": "- Zi Wei Dou Shu charting rules and interpretation methods"
+      },
+      "liuren": {
+        "name": "Da Liu Ren",
+        "description": "- Da Liu Ren charting rules and interpretation methods"
+      },
+      "liuyao": {
+        "name": "Liu Yao",
+        "description": "- Liu Yao charting rules and interpretation methods"
+      },
+      "bazi": {
+        "name": "Ba Zi - Four Pillars",
+        "description": "- Ba Zi charting rules and interpretation methods"
+      },
+      "name": {
+        "name": "Name Study",
+        "description": "- Name study application methods and interpretation methods"
+      },
+      "meihua": {
+        "name": "Plum Blossom Divination",
+        "description": "- Plum Blossom application and interpretation methods"
+      },
+      "fengshui": {
+        "name": "Feng Shui",
+        "description": "- Feng Shui geomancy rules and layout methods"
+      },
+      "xiang": {
+        "name": "Physiognomy",
+        "description": "- Face and hand reading observation and destiny interpretation methods"
+      },
+      "taiyi": {
+        "name": "Tai Yi Divine Numbers",
+        "description": "- Tai Yi Divine Numbers charting rules and interpretation methods"
+      },
+      "sliuren": {
+        "name": "Small Liu Ren",
+        "description": "- Sliuren quick inference rules and interpretation methods"
+      },
+      "tieban": {
+        "name": "Tieban Divine Numbers",
+        "description": "- Tieban Divine Numbers precise inference rules and interpretation methods"
+      },
+      "drawing": {
+        "name": "Drawing Lots",
+        "description": "- Drawing lots prayer and sign interpretation methods"
+      },
+      "zeri": {
+        "name": "Auspicious Date Selection",
+        "description": "- Auspicious date selection methods for marriages/moving/business opening/excavation/burial"
+      }
+    }
+  }
+}
